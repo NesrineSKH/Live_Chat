@@ -26,7 +26,7 @@ chatBtn.addEventListener('click', ()=>{
 })
 
 // send msg 
-submitBtn.addEventListener('click', ()=>{
+submitBtn.addEventListener('click ', ()=>{
     let userInput = inputElm.value;
 
     let temp = `<div class="out-msg">
